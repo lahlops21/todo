@@ -10,6 +10,9 @@ appendChild() --> Insere uma tag filha na tag pai (como li dentro de ul)
 
 .value -> Propriedade que acessa o valor digitado no input
 
+.add() -> 
+
+.addEventListener() -> Cria um evento para ser escutado
 
 
 # OBS 

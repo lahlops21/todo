@@ -1,7 +1,7 @@
 import BotaoConclui from "./componentes/concluiTarefa";
 import BotaoDeleta from "./componentes/deletaTarefa";
 
-// Componente de criação de uma nova tarefa
+// Componente de criação de uma nova tarefa ( O que vai acontecer)
 const CriarTarefa = () => {
     // Criação das constantes do HTML
     const lista = document.querySelector("[data-list]"); // Seleciona o elemento da lista onde as tarefas serão inseridas.
@@ -12,14 +12,18 @@ const CriarTarefa = () => {
     tarefa.classList.add("task"); // Adiciona a classe task na li.
     
     const conteudo = `<p class="content">${valor}</p>` // Monta o html.
-
-
-    
-    // Criação do evento - Evento
-    const novaTarefa = (event) => {
-        const button = document.querySelector("[data-form-button]");
-        // qual => onClick
-        // o que vai acontecer => uma nova tarefa vai ser criada
-        // botão
-    }
+    tarefa.innerHTML = conteudo; // Insere um conteúdo de texto de na tarefa. texto -> tag
+    tarefa.appendChild(BotaoConclui()) // Adicione o botão de concluir no li// os cmponentes são chamados e vistos no html através de tags SEMPRE        
+    tarefa.appendChild(BotaoDeleta()) // Adiciona botão de concluir no i 
+    lista.appendChild(tarefa)
 }
+
+// evento ( onde vai acontecer)
+const novaTarefa = document.querySelector("[data-form-button]");
+
+// qual o evento (evento)
+novaTarefa.addEventListener("click", CriarTarefa );
+
+// 1. Onde vai ser o evento
+// 2. Qual evento
+// 3. (O que vai acontecer)
