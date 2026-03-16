@@ -12,8 +12,9 @@ appendChild() --> Insere uma tag filha na tag pai (como li dentro de ul)
 
 .add() -> 
 
-.addEventListener() -> Cria um evento para ser escutado
+.addEventListener() -> Método que cria um evento para ser escutado
 
+.innerText -> Propriedade que inclui um texto em uma tag. 
 
 # OBS 
 
