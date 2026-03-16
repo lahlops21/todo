@@ -16,12 +16,17 @@ appendChild() --> Insere uma tag filha na tag pai (como li dentro de ul)
 
 .innerText -> Propriedade que inclui um texto em uma tag. 
 
+.parentElement -> Propriedade que acessa o elemento pai 
 # OBS 
+
+``main.js``
 
 criarTarefa() -> Componente funcional onde ira ser guardado toda a lógica para a criação de uma tarefa. (Serve para organização)
 
 novaTarefa() -> É evento que informa o que vai acontecer quando determinada ação for efetuada.(Quando o botão for clicado) 
 
+
+``deletaTarefa.js``
 
 
 

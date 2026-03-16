@@ -9,7 +9,7 @@ const DeletaTarefa = () => {
 // acontecer(DeletaTarefa), onde
 const BotaoDeleta = (evento) => {
     const deletaEvento = evento.target; // obtem o botão que foi clicado 
-
+    const tarefaDeletada = deletaEvento.parentElement; // Acessar o elemento pai do botão. 
     // vou chamar o DeletaTarefa que é a lógica
 }
 
